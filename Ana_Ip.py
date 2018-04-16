@@ -2,7 +2,10 @@
 
 __author__ = "@MkDVice"
 
-ip = int(input('Digite os três primeiros digitos do IP: '))
+ip = int(input('Digite os três primeiros digitos do IP: ')) # entrada do valor
+
+'''Condição para classificação do IP. A (0 à 127), B (127 à 191), C (192 à 223),
+   D (224 à 239) e E (240+) '''
 
 if (ip >= 0) and (ip <= 127):
     print('Ip de classe A')
